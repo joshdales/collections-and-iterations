@@ -20,3 +20,6 @@ puts friends_and_family.sort
 friends_and_family << 0
 
 puts fav_films["The Departed"]
+
+#Exercise 2
+puts fav_colours[-1]
