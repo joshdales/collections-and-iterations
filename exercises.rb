@@ -9,3 +9,6 @@ define_words = {olfactory: "Relating to the sense of smell.", translate: "Expres
 fav_films = {"The Departed" => 2006, "A.I Artificial Intelligence" => 2001, "The Big Lebowski" => 1990}
 populations = {London: 8.788, Toronto: 2.615, Paris: 12310}
 family_ages = {Theo: 34, Lauren: 28, Karl: 27}
+
+#Exercise 1
+print flip_a_coin
