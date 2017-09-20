@@ -40,3 +40,6 @@ puts fav_artists[0,2]
 fav_films.each do |name, year|
   puts "#{name} came out in #{year}"
 end
+
+family_ages.sort.reverse!
+puts family_ages
