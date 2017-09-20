@@ -46,3 +46,10 @@ puts family_ages
 
 fav_films["Beauty and the Beast"] = 1997, 2017
 puts fav_films
+
+#Exercise 4
+friends_and_family.each do |person|
+  if person < 30
+    puts "#{person}"
+  end
+end
