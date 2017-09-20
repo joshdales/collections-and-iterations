@@ -43,3 +43,6 @@ end
 
 family_ages.sort.reverse!
 puts family_ages
+
+fav_films["Beauty and the Beast"] = 1997, 2017
+puts fav_films
