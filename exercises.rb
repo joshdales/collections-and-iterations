@@ -29,3 +29,7 @@ populations[:Chicago] = 2.705
 flip_a_coin.reverse!
 
 puts populations
+
+fav_artists.each do |artist|
+  "I think #{artist} is factastic!"
+end
