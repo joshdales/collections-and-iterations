@@ -33,3 +33,10 @@ puts populations
 fav_artists.each do |artist|
   "I think #{artist} is factastic!"
 end
+
+#Exercise 3
+puts fav_artists[0,2]
+
+fav_films.each do |name, year|
+  puts "#{name} came out in #{year}"
+end
