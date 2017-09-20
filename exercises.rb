@@ -16,3 +16,7 @@ puts flip_a_coin
 puts fav_colours[0]
 
 puts friends_and_family.sort
+
+friends_and_family << 0
+
+puts fav_films["The Departed"]
