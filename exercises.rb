@@ -23,3 +23,9 @@ puts fav_films["The Departed"]
 
 #Exercise 2
 puts fav_colours[-1]
+
+populations[:Chicago] = 2.705
+
+flip_a_coin.reverse!
+
+puts populations
