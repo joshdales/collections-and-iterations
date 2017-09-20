@@ -1,6 +1,6 @@
 #Exercise 0
 fav_colours = ["green", "purple", "blue"]
-friends_and_family_ages = [27, 28, 34, 33, 73, 67]
+friends_and_family = [27, 28, 34, 33, 73, 67]
 flip_a_coin = [false, false, true, false, true]
 fav_artists = ["Devin Townsend", "Gojira", "SikTh"]
 fav_colours_sym = [:green, :purple, :blue]
@@ -11,4 +11,8 @@ populations = {London: 8.788, Toronto: 2.615, Paris: 12310}
 family_ages = {Theo: 34, Lauren: 28, Karl: 27}
 
 #Exercise 1
-print flip_a_coin
+puts flip_a_coin
+
+puts fav_colours[0]
+
+puts friends_and_family.sort
