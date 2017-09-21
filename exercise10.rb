@@ -9,3 +9,8 @@ def bitmaker(number)
     return number
   end
 end
+
+range = (1..100)
+range.each do |num|
+  p "#{bitmaker(num)}
+end
