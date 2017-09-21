@@ -76,3 +76,6 @@ end
 puts fav_colours[-2..-1]
 
 fav_colours += ['red', 'black']
+
+#Exercise 6
+movies_by_year = {1999 => ["The Matrix", "Star Wars: Episode 1", "The Mummy"], 2009 => ["Avatar", "Star Trek", "District 9"], 2019 => ["How to Train your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"]}
