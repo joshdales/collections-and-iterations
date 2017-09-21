@@ -11,6 +11,7 @@ def bitmaker(number)
 end
 
 range = (1..100)
+
 range.each do |num|
-  p "#{bitmaker(num)}
+  puts bitmaker(num)
 end
