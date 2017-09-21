@@ -63,3 +63,16 @@ fav_artists.delete_at(0)
 populations[:Paris] = 1
 
 #Exercise 5
+# populations.map { |e|  }.sum
+
+family_ages.each do |person, age|
+  if age < 30
+    puts "#{person} is youngish"
+  else
+    puts "#{person} is older"
+  end
+end
+
+puts fav_colours[-2..-1]
+
+fav_colours += ['red', 'black']
