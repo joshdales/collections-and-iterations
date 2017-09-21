@@ -174,3 +174,5 @@ def my_groceries (groceries)
 end
 
 print my_groceries(grocery_list)
+
+puts grocery_list.count
