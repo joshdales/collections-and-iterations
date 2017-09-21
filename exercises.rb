@@ -187,3 +187,6 @@ puts grocery_list[1]
 
 grocery_list.sort!
 print my_groceries(grocery_list)
+
+grocery_list.delete("salmon")
+print my_groceries(grocery_list)
