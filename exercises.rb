@@ -110,3 +110,8 @@ lots_of_numbers.each do |add|
   sum += add
   puts sum
 end
+
+even_more_numbers = (1..50).to_a
+even_more_numbers += (1..50).to_a
+even_more_numbers += (1..50).to_a
+even_more_numbers.sort!
