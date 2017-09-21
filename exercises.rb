@@ -97,3 +97,16 @@ countries = [{ New_Zeland: "island", UK: "island", Canada: "not island" }]
 50.times do
   puts "I will not skateboard in the halls"
 end
+
+no_skateboarding = []
+50.times do
+  no_skateboarding << "I will not skateboard in the halls"
+end
+
+lots_of_numbers = (1..50).to_a
+
+sum = 0
+lots_of_numbers.each do |add|
+  sum += add
+  puts sum
+end
