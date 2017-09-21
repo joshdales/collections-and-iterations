@@ -11,3 +11,9 @@ def display_students(list_of_students)
 end
 
 display_students(students)
+
+students[:cohort4] = 43
+puts students.keys
+
+students.each { |cohort, number| students[cohort] = number * 1.05 }
+puts students
