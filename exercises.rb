@@ -92,3 +92,8 @@ phone_rows.each do |row|
 end
 
 countries = [{ New_Zeland: "island", UK: "island", Canada: "not island" }]
+
+#Exercise 6
+50.times do
+  puts "I will not skateboard in the halls"
+end
