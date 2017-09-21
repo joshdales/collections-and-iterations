@@ -141,3 +141,21 @@ end
 
 puts is_island
 puts not_island
+
+#Exercise 7
+expenses1 = [15, 15.2, 84, 21, 4]
+puts expenses1.sum
+
+def sum_total(corperate_expenses)
+  sum_counter = 0
+
+  corperate_expenses.each do |add|
+    sum_counter += add
+    puts sum_counter
+  end
+
+end
+
+puts sum_total(expenses1)
+expenses2 = [242, 47, 9, 19]
+puts sum_total(expenses2)
