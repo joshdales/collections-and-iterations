@@ -159,3 +159,10 @@ end
 puts sum_total(expenses1)
 expenses2 = [242, 47, 9, 19]
 puts sum_total(expenses2)
+
+#Exercise 8
+grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
+
+grocery_list.each do |item|
+  puts "* #{item}"
+end
