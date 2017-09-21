@@ -5,10 +5,18 @@ flip_a_coin = [false, false, true, false, true]
 fav_artists = ["Devin Townsend", "Gojira", "SikTh"]
 fav_colours_sym = [:green, :purple, :blue]
 
-define_words = {olfactory: "Relating to the sense of smell.", translate: "Express the sense of (words or text) in another language.", BF: "A person's boyfriend"}
-fav_films = {"The Departed" => 2006, "A.I Artificial Intelligence" => 2001, "The Big Lebowski" => 1990}
-populations = {London: 8.788, Toronto: 2.615, Paris: 12310}
-family_ages = {Theo: 34, Lauren: 28, Karl: 27}
+define_words = {olfactory: "Relating to the sense of smell.",
+  translate: "Express the sense of (words or text) in another language.",
+  BF: "A person's boyfriend"}
+fav_films = {"The Departed" => 2006,
+  "A.I Artificial Intelligence" => 2001,
+  "The Big Lebowski" => 1990}
+populations = {London: 8.788,
+  Toronto: 2.615,
+  Paris: 12310}
+family_ages = {Theo: 34,
+  Lauren: 28,
+  Karl: 27}
 
 #Exercise 1
 puts flip_a_coin
@@ -91,7 +99,10 @@ phone_rows.each do |row|
   print "#{row}\n"
 end
 
-countries = [{ New_Zeland: "island", UK: "island", Canada: "not island" }]
+countries = [{Name: "New_Zealand", Continent: "Oceania", Island?: "island"},
+  {Name: "UK", Continent: "Europe", Island?: "island"},
+  {Name: "Canada", Continent: "North America", Island?: "not island" },
+]
 
 #Exercise 6
 50.times do
@@ -115,3 +126,18 @@ even_more_numbers = (1..50).to_a
 even_more_numbers += (1..50).to_a
 even_more_numbers += (1..50).to_a
 even_more_numbers.sort!
+
+is_island = []
+not_island = []
+
+
+countries.each do |country|
+  if country[:Island?] == "island"
+    is_island << country
+  else
+    not_island << country
+  end
+end
+
+puts is_island
+puts not_island
