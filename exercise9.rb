@@ -17,3 +17,6 @@ puts students.keys
 
 students.each { |cohort, number| students[cohort] = number * 1.05 }
 puts students
+
+students.delete(:cohort2)
+puts students
