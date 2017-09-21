@@ -63,7 +63,7 @@ fav_artists.delete_at(0)
 populations[:Paris] = 1
 
 #Exercise 5
-# populations.map { |e|  }.sum
+populations.map { |city, population| population  }.sum
 
 family_ages.each do |person, age|
   if age < 30
