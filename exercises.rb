@@ -53,3 +53,13 @@ friends_and_family.each do |person|
     puts "#{person}"
   end
 end
+
+puts friends_and_family.max
+
+flip_a_coin.count(true)
+
+fav_artists.delete_at(0)
+
+populations[:Paris] = 1
+
+#Exercise 5
