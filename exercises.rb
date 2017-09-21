@@ -79,3 +79,16 @@ fav_colours += ['red', 'black']
 
 #Exercise 6
 movies_by_year = {1999 => ["The Matrix", "Star Wars: Episode 1", "The Mummy"], 2009 => ["Avatar", "Star Trek", "District 9"], 2019 => ["How to Train your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"]}
+
+phone_row1 = [1, 2, 3]
+phone_row2 = [4, 5, 6]
+phone_row3 = [7, 8, 9]
+phone_row4 = ['*', 0, '#']
+
+phone_rows = [phone_row1, phone_row2, phone_row3, phone_row4]
+
+phone_rows.each do |row|
+  print "#{row}\n"
+end
+
+countries = [{ New_Zeland: "island", UK: "island", Canada: "not island" }]
